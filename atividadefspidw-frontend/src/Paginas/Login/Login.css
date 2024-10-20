@@ -1,0 +1,42 @@
+/* Estilo específico para o container de login */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Tela cheia */
+    background-color: gray; /* Cor de fundo */
+    padding: 2rem;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 400px; /* Limita a largura dos campos */
+    margin: 10px 0;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px; /* Aumenta o padding para os campos */
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+    border-radius: 5px;
+}
+
+.btn-block {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text-white {
+    color: white;
+}
+
+/* Estilo do botão "Esqueci Minha Senha" */
+.btn-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-link:hover {
+    color: lightgray;
+}
